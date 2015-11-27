@@ -513,7 +513,7 @@ static NSMutableSet *_retainedPopupControllers;
 - (void)setupContainerView
 {
     _containerView = [UIView new];
-    _containerView.backgroundColor = [UIColor whiteColor];
+    _containerView.backgroundColor = [UIColor clearColor];
     _containerView.clipsToBounds = YES;
     [_containerViewController.view addSubview:_containerView];
     
